@@ -18,8 +18,6 @@ class Asset:
     hostname: str             # Hostname of the machine/container
     ipAddress: str            # IP address
     assetType: str            # Server, Container, Network Device
-    location: Optional[str]   # Physical or network location (optional)
-    vulnerabilityScore: Optional[float]  # Vulnerability score (optional)
 
 
 # --- Relationship Definitions ---
